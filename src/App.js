@@ -23,13 +23,13 @@ class App extends Component {
           <div>
             <Switch>
               <Route exact path='/' component={Login} />
-              {localStorage.getItem('userID') &&
-                <Route exact path="/dashboard" component={Dashboard} />}
-              {localStorage.getItem('userID') &&
-                <Route exact path="/raiseconcern" component={RaiseConcern} />}
-              {localStorage.getItem('userID') &&
+              
+                <Route exact path="/dashboard" component={Dashboard} />
+              
+                <Route exact path="/raiseconcern" component={RaiseConcern} />
+             
                 <Route exact path="/inbox" component={MailConcern} />
-              }
+              
             </Switch>
           </div>
         </Router>
