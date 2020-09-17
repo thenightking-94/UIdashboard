@@ -205,8 +205,7 @@ class Dashboard extends Component {
                             <br /><br /><br />
                             <Link to='/raiseconcern' id='dummy_list'>Raise Concern</Link>
                             <br /><br /><br />
-                            <Link to='/reports' id='dummy_list'>Reports</Link>
-                            <br /><br /><br />
+                            
                             <Link to='/inbox' id='dummy_list'>Inbox</Link>
                         </ul></Grid>
                     <br />

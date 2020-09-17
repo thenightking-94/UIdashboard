@@ -105,11 +105,10 @@ class MailConcern extends Component {
                     <Grid style={{ padding: '20px', width: '100%' }} container direction="row" justify="flex-start" alignItems="center" >
                         <ul>
                             <Link to='/dashboard' id='dummy_list'>Dashboard</Link>
-                            <br />
+                            <br /><br /><br />
                             <Link to='/raiseconcern' id='dummy_list'>Raise Concern</Link>
-                            <br />
-                            <Link to='/reports' id='dummy_list'>Reports</Link>
-                            <br />
+                            <br /><br /><br />
+
                             <Link to='/inbox' id='dummy_list'>Inbox</Link>
                         </ul></Grid>
                     <br />
