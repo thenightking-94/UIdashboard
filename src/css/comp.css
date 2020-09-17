@@ -1,0 +1,236 @@
+#open_menu {
+  width: 0px;
+  height: 895px;
+  position: fixed;
+  left: -300px;
+  top: 0px;
+  background: #000000c1 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 22;
+}
+#Closebtn {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 18px;
+  padding: 1px;
+  opacity: 0.7;
+  background-color: #ffffff !important;
+}
+#dummy_list {
+  font: normal normal 600 20px/30px Open Sans;
+  letter-spacing: 0px;
+  color: white !important;
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+#Closebtn:hover {
+  opacity: 1;
+}
+#lg_out {
+  background: #e88d14 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-top: 30px;
+  padding: 10px;
+  height: 25px;
+  width: 60px;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 22;
+  position: fixed;
+  -webkit-animation: fade-in-bck 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-bck 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+#lg_out > a {
+  color: white;
+}
+#s_box {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+#dummy_list:hover {
+  background: #e88d14;
+  font-size: 21px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: 0.9s;
+}
+#rc1 {
+  -webkit-animation: scale-in-center1 1.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-in-center1 1.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-in-center1 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.65;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.65;
+  }
+}
+@keyframes scale-in-center1 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.65;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.65;
+  }
+}
+.rb {
+  display: flex;
+  background-color: #e88d14;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  border-radius: 10px;
+  height: 30px;
+  text-align: center;
+}
+#rl {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+.rb > input[type="radio"] {
+  border: 0;
+  width: 20px;
+  height: 20px;
+}
+.rb > input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+.rb > input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #008529 !important;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+#text_frm {
+  background-color: #dcdcdc;
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+}
+.fdate {
+  border-radius: 10px;
+  height: 35px;
+  outline: none;
+  border: 5px solid #e88d14;
+  width: 200px;
+}
+.fcat {
+  border-radius: 10px;
+  height: 35px;
+  outline: none;
+  border: 5px solid #e88d14;
+  width: 300px;
+}
+.fdep {
+  border-radius: 10px;
+  height: 35px;
+  outline: none;
+  border: 5px solid #e88d14;
+  width: 100%;
+}
+#frmgrid {
+  padding-left: 240px;
+}
+#reqbtn {
+  background-color: #008529;
+  border-radius: 8px;
+  color: white;
+  padding: 5px;
+  text-transform: capitalize;
+  width: 100px;
+  text-align: center;
+}
+#mailpage {
+  padding-left: 100px;
+  padding-right: 70px;
+}
+#header_mail {
+  -webkit-animation: scale-in-center1 1.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-in-center1 1.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+}
+#reports_link {
+  background: #e88d14;
+  color: black;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 90px;
+}
+#reports_href {
+  background: #e88d14;
+  color: black;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+  font-size: 15px;
+  font-family: Helvetica;
+  cursor: pointer;
+}
+#showmail {
+  z-index: 23;
+  height: fit-content;
+  position: fixed;
+  display: none;
+  width: 100%;
+  top: 40%;
+  left: 0px;
+  padding: 20px;
+  font-size: medium;
+  background-color: #008529;
+  color: white;
+}
+@media (max-width: 760px) {
+  #hname {
+    font-size: 14px !important;
+  }
+  #body_section {
+    height: 1840px !important;
+  }
+  #frmgrid {
+    padding-left: 0px !important;
+  }
+  #upl {
+    width: 85% !important;
+  }
+  #m_mobile {
+    margin-left: -100px;
+  }
+}
